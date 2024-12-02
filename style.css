@@ -3,4 +3,8 @@ h1 {
   font-weight: 700;
   size: 96px;
   line-height: 144px;
+  text-align: center;
+}
+footer {
+  text-align: center;
 }
