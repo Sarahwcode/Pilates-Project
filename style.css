@@ -1,10 +1,66 @@
-h1 {
+body {
   font-family: "Poppins";
+  background-color: #272044;
+}
+h1 {
   font-weight: 700;
-  size: 96px;
+  font-size: 80px;
   line-height: 144px;
+  margin: 0 auto;
+}
+.header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 0 auto;
+}
+.header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("../Pilates-Project/Images/Pilates\ image\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
+  color: white;
+  padding: 286px 292px;
+}
+.header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 3px;
+  padding: 16px 32px 16px 32px;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #272044;
+  margin-top: 32px;
+  display: inline-block;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 footer {
   text-align: center;
+}
+@media (max-width: 1200px) {
+  .header {
+    padding: 30px 0px;
+    line-height: 80px;
+  }
+  .header h1 {
+    font-size: 40px;
+  }
+  .header h2 {
+    font-size: 25px;
+  }
 }
