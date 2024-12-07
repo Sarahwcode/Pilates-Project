@@ -159,4 +159,11 @@ footer .my-code {
   .main-grid {
     grid-template-columns: 1fr;
   }
+  .main-image {
+    width: 800px;
+    height: 500px;
+  }
+  section {
+    padding-left: 20px;
+  }
 }
