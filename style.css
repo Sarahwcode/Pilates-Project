@@ -169,6 +169,26 @@ section.second {
   color: white;
   text-decoration: none;
 }
+.fourth {
+  background-color: #181525;
+  max-width: 1400px;
+  color: white;
+}
+table {
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+
+td {
+  border-top: 1px solid lightgray;
+}
+
+.responsive-table {
+  overflow-x: auto;
+}
+.insta-colour {
+  color: white;
+}
 
 footer {
   color: white;
