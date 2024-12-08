@@ -1,7 +1,6 @@
 body {
   font-family: "Poppins";
   background-color: #272044;
-  align-items: center;
 }
 h1 {
   font-weight: 700;
@@ -153,8 +152,10 @@ section.second {
   aspect-ratio: 16/9;
 }
 .third {
+  width: 1200px;
   text-align: center;
 }
+
 .second-button {
   padding: 16px 80px;
   background-color: #462cb2;
@@ -173,10 +174,20 @@ section.second {
   background-color: #181525;
   max-width: 1400px;
   color: white;
+  text-align: center;
+  padding: 20px;
+}
+.fourth h2 {
+  padding-bottom: 30px;
+}
+.fourth h3 {
+  padding-bottom: 30px;
 }
 table {
   border: 1px solid lightgrey;
   width: 100%;
+
+  text-align: center;
 }
 
 td {
