@@ -8,6 +8,10 @@ h1 {
   line-height: 144px;
   margin: 0 auto;
 }
+.img-responsive {
+  width: 100%;
+  display: block;
+}
 .header h2 {
   font-weight: 400;
   font-size: 40px;
@@ -145,6 +149,10 @@ section.second {
   margin: 0px auto;
   width: 100%;
   padding: 0px;
+  aspect-ratio: 16/9;
+}
+.third {
+  text-align: center;
 }
 .second-button {
   padding: 16px 80px;
@@ -160,6 +168,7 @@ section.second {
   color: white;
   text-decoration: none;
 }
+
 footer {
   color: white;
   background-image: linear-gradient(
