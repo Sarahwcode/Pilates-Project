@@ -81,14 +81,12 @@ main p {
   line-height: 24px;
   opacity: 70%;
 }
-main img {
-  width: 570px;
-  height: 461px;
-}
+
 .main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 60px;
+  padding: 20px;
 }
 section {
   max-width: 1200px;
@@ -152,8 +150,9 @@ section.second {
   aspect-ratio: 16/9;
 }
 .third {
-  width: 1200px;
+  max-width: 1400px;
   text-align: center;
+  padding: 20px;
 }
 
 .second-button {
@@ -268,14 +267,12 @@ footer p {
   .main-grid {
     grid-template-columns: 1fr;
   }
-  .main-image {
-    width: 800px;
-    height: 500px;
-  }
+
   section {
     padding-left: 20px;
   }
   .secondary-grid {
     grid-template-columns: 1fr;
+    padding: 0px;
   }
 }
